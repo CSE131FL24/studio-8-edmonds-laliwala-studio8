@@ -24,9 +24,25 @@ public class Quiz {
 		}
 		return sum;
 	}
-	
-	public void takeQuiz() {
-		//FIXME
+		/*
+
+    Iterate through all of the questions:
+
+        Display the prompt for each question
+
+        Request a user answer for each question (using getUserAnswer())
+
+        Check the answer that the user gave
+
+        Display the points earned for each question
+
+    Once all questions have been answered, it should display the points earned
+    as well as the total number of points available (from getTotalPoints())
+		 */
+	public void takeQuiz(Question[] questions) {
+		for (int i = 0; i < 0; i++) {
+			
+		}
 	}
 	
 	public static void main(String[] args) {
